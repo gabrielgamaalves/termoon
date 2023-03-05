@@ -21,8 +21,9 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 O projeto conta com a escolha de temas, após ser desvendada a palavra chave, ja foram criados alguns temas. São eles:
 
-/Carta `100%`
-/Menssagem direta - Twitter `80%`
+CARTA ![50%](https://progress-bar.dev/50)
+
+Menssagem direta - Twitter `80%`
 
 ## 🚀 Instalando <nome_do_projeto>
 
