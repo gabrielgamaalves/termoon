@@ -20,8 +20,15 @@
 
 #### O projeto conta com a escolha de temas, após ser desvendada a palavra chave, ja foram criados alguns temas. São eles:
 
+<<<<<<< HEAD
 - Carta
 -  
+=======
+![](https://img.shields.io/badge/CARTA-100%25-green?&style=for-the-badge)<br>
+![](https://img.shields.io/badge/MENSSAGEM%20DIRETA%20--%20TWITTER-80%25-orange?&style=for-the-badge)
+
+Menssagem direta - Twitter `80%`
+>>>>>>> 92fbb06d0cf5ba4ff2cd196eeb844eaaab55a0b6
 
 ## 🚀 Instalando <nome_do_projeto>
 
