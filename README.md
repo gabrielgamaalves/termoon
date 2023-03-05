@@ -1,25 +1,28 @@
-# Nome do projeto
+# 🌕 TERMOON
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/gabrielgamaalves/termoon?color=%239130ff&label=LINGUAGENS&style=for-the-badge)
 
-<img src="exemplo-image.png" alt="exemplo imagem">
-
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> Esse é um site/projeto onde simula um jogo, porém escondendo uma mensagem secreta após descobrir a palavra certa!
 
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Tarefa 1
-- [x] Tarefa 2
-- [x] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
+- [x] Sistema de senhas
+- [x] Pagina do jogo
+- [x] Sair da sessão
+- [ ] Tela de criação de Token(Chave)
+- [ ] Sistema de disfarce de menssagem
 
-## 💻 Pré-requisitos
+### Criação de temas
+
+O projeto conta com a escolha de temas, após ser desvendada a palavra chave, ja foram criados alguns temas. São eles:
+
+> carta {100%}
+> Menssagem direta - Twitter {80%}
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
