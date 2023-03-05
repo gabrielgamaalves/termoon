@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+
+@font-face {
+    font-family: "Stay Winter";
+    src: url("staywinter.otf");
+}
+*{
+    border: none;
+}
+
+body{
+    background-color: #d1cdcd;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* height: 101vh; */
+    justify-content: center;
+}
+
+.exit_session{
+    z-index: 1;
+    top: 15px;
+    background-color: #f56161;
+    right: 25px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0 #4c4347;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+}
+.exit_session i{
+    color: white;
+    font-size: 19px;
+    margin-top: 4px;
+    /* transform: rotateY(180deg); */
+}
+.exit_session:hover{
+    box-shadow: 2px 2px 0 #4c4347;
+    background-color: #d35454;
+}
+
+section{
+    /* height: 100vh; */
+    width: 600px;
+    /* margin: 50px auto; */
+    background-color: #DDD;
+    background-image: url("tx-paper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+section::after{
+    content: '';
+    display: block;
+    border-width: 0px 75px 75px 0px;
+    border-style: solid;
+    border-color: #f1f1f1 transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+section::after{
+    content: '';
+    display: block;
+    border-width: 0px 75px 75px 0px;
+    border-style: solid;
+    border-color: #f1f1f1 #d1cdcd;
+    box-shadow: -5px 6px 10px rgb(129, 127, 127);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+section .text h1{
+    text-align: center;
+    margin-left: -30px;
+    padding: 10px;
+    font-family: "Stay Winter";
+    font-size: 35px;
+    font-weight: 500;
+    color: #555555ef;
+    text-shadow: 0px 0px 10px rgba(22, 20, 20, 0.226);
+    margin-top: 98px;
+}
+
+.text{
+    margin: 20px;
+    margin-left: 10%;
+    height: 100%;
+}
+section .text p{
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Indie Flower';
+    color: #555;
+    text-shadow: 0px 0px 10px rgba(22, 20, 20, 0.226);
+}
+.text div{
+    margin: 10px;
+    margin-bottom: 24px;
+}

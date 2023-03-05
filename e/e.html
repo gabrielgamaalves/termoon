@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		JavaScript | encode/decode a string to Base64.
+	</title>
+</head>
+
+<body style="text-align:center;">
+
+	<h1 style="color:green;">
+			GeeksForGeeks
+		</h1>
+
+	<p id="GFG_UP">
+	</p>
+
+	<button onclick="Geeks()">
+		Decode
+	</button>
+
+	<p id="GFG_DOWN" style="color:green;">
+	</p>
+
+	<script>
+		var str = "eyJkaWNhIjoiVm1GcyIsInBhc3MiOiJVSEptWm1abSIsIm1lbnNzYWdlIjoiYjJzPSJ9";
+		var up = document.getElementById("GFG_UP");
+		var down = document.getElementById("GFG_DOWN");
+		up.innerHTML = "Str = '" + str + "'";
+
+		function Geeks() {
+			down.innerHTML = window.atob(str);
+		}
+	</script>
+</body>
+
+</html>

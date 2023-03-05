@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Admin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <style>
+        body{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            display: block;
+            width: 100%;
+        }
+    </style>
+    <form>
+        <p>Dica da senha</p>
+        <input type="text" id="dica">
+
+        <p>password</p>
+        <input type="text" id="pass">
+
+        <p>Titulo</p>
+        <input type="text" id="title">
+
+        <p>Menssagem</p>
+        <textarea id="msgBox" cols="20" rows="10" placeholder="Menssagem aqui"></textarea>
+
+        <select name="" id="tema">
+            <option value="1">Carta</option>
+            <option value="2">Menssage</option>
+        </select>
+
+        <button type="submit" id="btn">GERAR & COPIAR</button>
+    </form>
+
+    <div style="margin-top: 10px;">
+        <p>Token</p>
+        <textarea id="i" cols="20" rows="10" placeholder="O token ao ser gerado aparece aqui!!"></textarea>
+        <button onclick="copiarTexto()">Copiar</button>
+    </div>
+    
+    <script src="../js/session.js"></script>
+    <script src="../js/msg.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        document.getElementById("btn").addEventListener("click", (e) => {
+            e.preventDefault()
+            const dica = document.getElementById('dica').value
+            const pass = document.getElementById('pass').value
+
+            const msg = document.getElementById('msgBox').value
+            const titulo = document.getElementById('title').value
+            const tema = document.getElementById("tema").value
+
+            const text = complWrite(tema, {titulo:titulo, msg:msg})
+            console.log(tema, {titulo:titulo, msg:msg})
+            const compl = compilado(dica, pass, text)
+            console.log(compl)
+            document.getElementById("i").value = compl
+            copiarTexto()
+        })
+        function copiarTexto() {
+            /* Selecionamos por ID o nosso input */
+            var textoCopiado = document.getElementById("i");
+
+            /* Deixamos o texto selecionado (em azul) */
+            textoCopiado.select();
+            textoCopiado.setSelectionRange(0, 99999); /* Para mobile */
+
+            /* Copia o texto que está selecionado */
+            document.execCommand("copy");
+            alert('Chave Copiada')
+        }
+    </script>
+</body>
+</html>

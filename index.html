@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="lua.png" type="image/x-icon">
+    <title>Termoon</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/game.css" id="stylePag">
+
+    <link rel="stylesheet" href="css/response/style.mobile.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css">    
+</head>
+<body>
+    <section class="gaming" id="gaming">
+        <div class="title" style="display: flex; align-items: center;"><h2>TERM</h2><img src="lua.png" width="28px" height="28px"><h2>ON</h2></div>
+        <div class="bar">
+            <h3 class="subtitle" id="subtitle">Descubra a Palavra!</h3>
+            <button class="exit_session" id="exitSession"><i class="fa-regular fa-person-from-portal"></i></button>
+        </div>
+        <div class="container" id="container">
+            <form class="container__form">
+                <p><i class="fa-regular fa-key"></i>Insira a chave da sessão!</p>
+                <textarea id="token" placeholder="  Insira aqui a chave"></textarea>
+                <p id="erro"><i class="fa-regular fa-circle-exclamation"></i> Não foi encontrada a sessão</p>
+                <button type="submit" id="btn">Procurar Sessão</button>
+            </form>
+        </div>
+        <div class="game" id="game">
+            <h3 class="dica_box">
+                <p class="dica_p1">DICA: </p><p id="dica"></p>
+            </h3>
+            <div class="content_game">
+                <input type="text" class="pl" id="pl0">
+                <input type="text" class="pl" id="pl1" disabled>
+                <input type="text" class="pl" id="pl2" disabled>
+                <input type="text" class="pl" id="pl3" disabled>
+                <input type="text" class="pl" id="pl4" disabled>
+                <input type="text" class="pl" id="pl5" disabled>
+            </div>
+
+            <button id="btnGame"><i class="fa-solid fa-arrow-turn-down-left"></i></button>
+            <div class="border_bottom"></div>
+        </div>
+    </section>
+
+    <script src="js/session.js"></script>
+    <script src="js/game.js"></script>
+    <script>
+
+        if(sessionStorage.getItem('token') === null){
+            // Verificação do token
+
+            document.getElementById('btn').addEventListener("click", (e) => {
+                e.preventDefault()
+
+                const erro = document.getElementById('erro')
+                erro.style.display = 'none'
+
+                const TokenBox = document.getElementById('token').value
+                const Token = verify(TokenBox)
+                // console.log(Token)
+
+                if(Token === 'error'){
+                    document.getElementById('token').value = ''
+                    erro.style.display = 'block'
+                    setTimeout(() => {
+                        erro.style.display = 'none'
+                    }, 2000)
+                }else{
+                    StartGame(Token, TokenBox)
+                }
+            })
+
+        }else{
+            const KeyToken = sessionStorage.getItem('token')
+            const sistem = new Sistem(KeyToken)
+            const Token = verify(sistem.sec_add())
+            StartGame(Token, KeyToken)
+        }
+
+    </script>
+</body>
+</html>

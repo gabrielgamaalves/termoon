@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E- MooN</title>
+</head>
+<body>
+    <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 10px;"><a href="../e"><button style="width: 835px; padding: 5px;">Voltar</button></a></div>
+    <form style="display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 20px;">
+        <div style="border: 2px solid rgb(108, 38, 201); display: flex; justify-content: center; align-items: center; flex-direction: column; padding: 10px; width: 60%;">
+            <h2>Decodificar</h2>
+            <input type="text" placeholder="Decodificar" style="width: 70%; height: 30px;" id="decode">
+            <button type="submit" id="decodebtn" style="width: 170px; height: 30px; margin-top: 10px;">Decodificar</button>
+            <p id="decodeP" style="border: 1px solid gray; border-radius: 5px; width: 560px; padding: 5px;"></p>
+        </div>
+    </form>
+
+    <script src="process.js"></script>
+    <script>
+        document.getElementById('decodebtn').addEventListener("click", (e)=>{
+            e.preventDefault()
+            const text_ = decode(document.getElementById('decode').value)
+            console.log(text_)
+            document.getElementById('decodeP').innerHTML = text_
+        })
+    </script>
+</body>
+</html>
