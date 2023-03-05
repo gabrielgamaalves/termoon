@@ -2,14 +2,13 @@
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/gabrielgamaalves/termoon?color=%239130ff&label=LINGUAGENS&style=for-the-badge)
 
 > Esse é um site/projeto onde simula um jogo, porém escondendo uma mensagem secreta após descobrir a palavra certa!
 
-### Ajustes e melhorias
+### ⚙️ **Ajustes e melhorias**
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+#### O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [x] Sistema de senhas
 - [x] Pagina do jogo
@@ -17,12 +16,12 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Tela de criação de Token(Chave)
 - [ ] Sistema de disfarce de menssagem
 
-### Criação de temas
+### **🌄 Criação de temas**
 
-O projeto conta com a escolha de temas, após ser desvendada a palavra chave, ja foram criados alguns temas. São eles:
+#### O projeto conta com a escolha de temas, após ser desvendada a palavra chave, ja foram criados alguns temas. São eles:
 
-/Carta `100%`
-/Menssagem direta - Twitter `80%`
+- Carta
+-  
 
 ## 🚀 Instalando <nome_do_projeto>
 
