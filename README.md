@@ -21,7 +21,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 O projeto conta com a escolha de temas, após ser desvendada a palavra chave, ja foram criados alguns temas. São eles:
 
-CARTA ![50%](https://progress-bar.dev/50)
+![](https://img.shields.io/badge/CARTA-100%25-green?&style=for-the-badge)<br>
+![](https://img.shields.io/badge/MENSSAGEM%20DIRETA%20--%20TWITTER-80%25-orange?&style=for-the-badge)
 
 Menssagem direta - Twitter `80%`
 
