@@ -8,7 +8,7 @@
 
 ### ⚙️ **Ajustes e melhorias**
 
-> #### O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+#### O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 >
 > - [x] Sistema de senhas
 > - [x] Pagina do jogo
@@ -21,13 +21,12 @@
 ### **🌄 Criação de temas**
 
 #### O projeto conta com a escolha de temas, após ser desvendada a palavra chave, ja foram criados alguns temas. São eles:
-
->> Carta `[100%]`<br>
->> Menssagem direta - Twitter `[80%]`
-
-### > Estão sendo criados os temas:
-
->> Menssagem Whatsapp
+>
+> Carta `[100%]`<br>
+> Menssagem direta - Twitter `[80%]`
+>
+> ### Estão sendo criados os temas:
+> Menssagem Whatsapp
 
 ## 🚀 Instalando <nome_do_projeto>
 
