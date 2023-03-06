@@ -6,15 +6,19 @@
 
 > Esse é um site/projeto onde simula um jogo, porém escondendo uma mensagem secreta após descobrir a palavra certa!
 
+[(https://img.shields.io/static/v1?label=&message=CARTA%20|%20100%&color=GREEN&style=for-the-badge)](#google.com)
+
 ### ⚙️ **Ajustes e melhorias**
 
 #### O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
+<table>
 - [x] Sistema de senhas
 - [x] Pagina do jogo
 - [x] Sair da sessão
 - [ ] Tela de criação de Token(Chave)
 - [ ] Sistema de disfarce de menssagem
+</table>
 
 ### **🌄 Criação de temas**
 
@@ -23,7 +27,7 @@
 >> Carta `[100%]`<br>
 >> Menssagem direta - Twitter `[80%]`
 
-### **>> Estão sendo criados os temas:**
+### > Estão sendo criados os temas:
 
 >> Menssagem Whatsapp
 
