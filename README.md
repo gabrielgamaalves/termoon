@@ -6,27 +6,35 @@
 
 > Esse é um site/projeto onde simula um jogo, porém escondendo uma mensagem secreta após descobrir a palavra certa!
 
+## Acesse o projeto via, "beta" ou "codigo final":
+
+<table>
+  <tr aling="center">
+    <img src="https://www.imagemhost.com.br/images/2023/03/06/btn-beta86770aa28c86fb40.png"/>
+  </tr>
+</table>
+
+> Sendo o "beta", os proximos testes e atualizaçãoes até a proxima versão do **Termoon**
+> Já o "codigo final", o site oficial do projeto!
+
 ### ⚙️ **Ajustes e melhorias**
 
 #### O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
->
-> - [x] Sistema de senhas
-> - [x] Pagina do jogo
-> - [x] Sair da sessão
-> - [ ] Tela de criação de Token(Chave)
-> - [ ] Sistema de disfarce de menssagem
 
-
+- [x] Sistema de senhas
+- [x] Pagina do jogo
+- [x] Sair da sessão
+- [ ] Tela de criação de Token(Chave)
+- [ ] Sistema de disfarce de menssagem
 
 ### **🌄 Criação de temas**
 
 #### O projeto conta com a escolha de temas, após ser desvendada a palavra chave, ja foram criados alguns temas. São eles:
->
-> Carta `[100%]`<br>
-> Menssagem direta - Twitter `[80%]`
->
-> ### Estão sendo criados os temas:
-> Menssagem Whatsapp
+- Carta `[100%]`
+- Menssagem direta - Twitter `[80%]`
+
+#### 🌄 | Estão sendo criados os temas:
+- Menssagem Whatsapp
 
 ## 🚀 Instalando <nome_do_projeto>
 
