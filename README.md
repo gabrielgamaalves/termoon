@@ -9,7 +9,7 @@
 ## Acesso ao projeto
 
 #### Acesse o projeto via, "beta" ou "codigo final":
-> Sendo o "beta", os proximos testes e atualizaçãoes até a proxima versão do **Termoon**
+> Sendo o "beta", os proximos testes e atualizaçãoes até a proxima versão do **Termoon** <br>
 > Já o "codigo final", o site oficial do projeto!
 
 <div align="center">
