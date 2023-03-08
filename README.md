@@ -15,7 +15,7 @@
 <div align="center">
   <a href="">
     <img src="https://dabuttonfactory.com/button.png?t=Beta&f=Calibri-Bold&ts=22&tc=fff&hp=71&vp=8&w=180&h=38&c=4&bgt=unicolored&bgc=9130ff&shs=6&shc=4f3968&sho=s">
-  </a>ﾠ
+  </a> ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ ﾠﾠ ﾠ 
   <a href="">
     <img src="https://dabuttonfactory.com/button.png?t=Codigo+Final&f=Calibri-Bold&ts=20&tc=fff&hp=71&vp=8&w=218&h=38&c=4&bgt=unicolored&bgc=43fd65&shs=6&shc=56bd50&sho=s">
   </a>
