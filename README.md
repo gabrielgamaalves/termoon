@@ -124,6 +124,6 @@ Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contr
 
 ## 📝 Licença
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes. <br>
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes. <br><br><br>
 
 <a href="#-termoon"> <img src="https://dabuttonfactory.com/button.png?t=%E2%86%91+Voltar+ao+topo&f=Calibri-Bold&ts=18&tc=fff&hp=45&vp=20&w=218&h=32&c=4&bgt=unicolored&bgc=8f92f4&ebgc=073763"/> <a>
