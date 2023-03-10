@@ -9,6 +9,7 @@
     padding: 0;
 }
 body{
+    display: flex;
     overflow: hidden;
     background-color: #000000;
     height: 100vh;
@@ -27,18 +28,25 @@ body{
     font-size: 13px;
     align-items: center;
 }
+
 #boxlogo img{
     width: 60px;
 }
 
+#barleft{
+    width: 100%;
+}
+
 section{
     display: flex;
-    justify-content: right;
+    /* justify-content: right; */
     margin-right: 55.5px;
-    padding: 0px 10px;
-    padding-left: 0;
     height: 100%;
     position: relative;
+    width: 50%;
+    flex-direction: column;
+    border-left: 0.1px solid rgba(255, 255, 255, 0.288);
+    border-right: 0.1px solid rgba(255, 255, 255, 0.288);
 }
 
 .text{
@@ -47,12 +55,39 @@ section{
     flex-direction: column;
     align-items: end;
     gap: 6px;
-    border-left: 0.1px solid rgba(255, 255, 255, 0.288);
-    border-right: 0.1px solid rgba(255, 255, 255, 0.288);
     height: 100%;
-    width: 60%;
     padding: 10px;
-    padding-right: 20px;
+    position: relative;
+    padding-right: 15px;
+}
+
+#heardBar{
+    width: 43.6%;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.747);
+    filter: blur(100%);
+    font-family: "TwitterChirp";
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    padding-left: 60px;
+    position: fixed;
+    z-index: 1;
+}
+
+#heardBar::before{
+    content: '';
+    position: absolute;
+    width: 32px;
+    left: 0;
+    height: 32px;
+    border-radius: 100%;
+    background-color: rgb(196, 188, 188);
+    margin-left: 15px;
+    background-image: url("https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png");
+    background-size: cover;
 }
 
 .text div{
@@ -81,7 +116,7 @@ section{
 @media (min-width: 900px){
     #left{
         width: 50%;
-        display: block;
+        display: flex;
     }
 
     #boxuser{

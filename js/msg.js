@@ -8,9 +8,7 @@ function initText(){
     const DescWrite = descWrite(Token.menssage)
 
     document.getElementById("theme").href = `theme/${DescWrite.theme}/style.css`
-    const script = document.createElement("script")
-    script.src = `theme/${DescWrite.theme}/script.js`
-    document.body.appendChild(script)
+    document.getElementById("script").src = `theme/${DescWrite.theme}/script.js`
 
     document.getElementById("msg").innerHTML = DescWrite.text
 }

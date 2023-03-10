@@ -20,17 +20,12 @@
     <img src="https://dabuttonfactory.com/button.png?t=Codigo+Final&f=Calibri-Bold&ts=20&tc=fff&hp=71&vp=8&w=218&h=38&c=4&bgt=unicolored&bgc=43fd65&shs=6&shc=56bd50&sho=s">
   </a>
 </div>
-
-
-<table>
-  <tr aling="">
-    
-  </tr>
-</table>
 </center>
 
-### ⚙️ **Ajustes e melhorias**
 
+## Atualizações:
+
+### **⚙️ Ajustes e melhorias**
 #### O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [x] Sistema de senhas
